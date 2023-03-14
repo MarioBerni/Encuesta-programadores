@@ -1,6 +1,7 @@
 #titulo {
   color: white;
   text-align: center;
+  font-size: 1rem;
 }
 
 body {
@@ -10,6 +11,7 @@ body {
   background-attachment: fixed;
   background-position: center center;
   overflow-x: hidden;
+  font-size: 1rem;
 }
 
 h2 {
@@ -32,19 +34,27 @@ h1 {
 
 @media screen and (max-width: 768px) {
   #formulario {
-    max-width: 90%;
+    max-width: 70%;
   }
 }
 
 @media (min-width: 768px) {
   #formulario {
-    width: 700px;
+    width: 50%;
   }
 }
 
-@media screen and (max-height: 768px) {
-  #formulario {
-    max-height: 90%;
+/* Ajusta el tamaño de fuente en dispositivos móviles */
+@media (max-width: 767px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+/* Ajusta el tamaño de fuente en tabletas y pantallas más grandes */
+  @media (min-width: 768px) {
+  html {
+    font-size: 15px;
   }
 }
 
@@ -72,5 +82,17 @@ input[type="radio"] {
 
 .recuadro {
   margin-left: 10px;
+}
+
+.recuadro>.form-check {
+  padding-top: 5px;
+}
+
+.recuadro .form-check:last-child {
+  padding-bottom: 5px;
+}
+
+#parrafo {
+  margin: 10px 10px 0px;
 }
 
