@@ -1,0 +1,76 @@
+#titulo {
+  color: white;
+  text-align: center;
+}
+
+body {
+  background-image: url("https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  overflow-x: hidden;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font: italic;
+}
+
+h1 {
+  font-weight: bolder;
+  padding-top: 20px;
+}
+
+#formulario {
+  background-image: linear-gradient(orange, yellow);
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  #formulario {
+    max-width: 90%;
+  }
+}
+
+@media (min-width: 768px) {
+  #formulario {
+    width: 700px;
+  }
+}
+
+@media screen and (max-height: 768px) {
+  #formulario {
+    max-height: 90%;
+  }
+}
+
+.form-group, .form-check {
+  padding: 10px 10px  0px 10px;
+}
+
+select {
+  appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M6.5 10L16 19.5 25.5 10 27 11.5l-11 11-11-11z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 0.5rem center;
+  background-size: 0.9rem;
+}
+
+#rama-programacion {
+  background-color: white;
+  width: 95%;
+}
+
+input[type="radio"] {
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.recuadro {
+  margin-left: 10px;
+}
+
